@@ -68,8 +68,7 @@
     position: absolute;
     bottom: -5px;
     left: 50%;
-    transform: translateX(-50%) ;
-
+    transform: translateX(-50%) ; 
 }
 #hrs::after{
     content: 'HOURS';  
@@ -79,5 +78,13 @@
 }
 #sec::after{
     content: 'SEC';  
+}
+.foot {
+   position: fixed;
+   bottom: 0;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
